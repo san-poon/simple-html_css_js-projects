@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./style.css' rel='stylesheet'>
+    <title>Payment Form Mockup</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Payment Form</h1>
+            <p>Required fields are followed by <strong><abbr title='required'>*</abbr>.</strong></p>
+
+            <section>
+                <h2>Contact Information</h2>
+                <fieldset>
+                    <legend>Title</legend>
+                    <ul>
+                        <li>
+                            <label for='title_1'>
+                                <input type='radio' id='title_1' name="title" vlaue='K'>
+                                King
+                            </label>
+                        </li>
+                        <li>
+                            <label for='title_2'>
+                                <input type='radio' id='title_2' name='title' value='Q'>
+                                Queen
+                            </label>
+                        </li>
+                        <li>
+                            <label for='title_3'>
+                                <input type="radio" id='title_3' name='title' value='J'>
+                                Joker
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <p>
+                    <label for='name'>
+                        <span>Name: </span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type='text' id='name' name='username'>
+                </p>
+
+                <p>
+                    <label for='mail'>
+                        <span>E-mail: </span>
+                        <strong><abbr title='required'>*</abbr></strong>
+                    </label>
+                    <input type='email' id='mail' name='usermail'>
+                </p>
+                
+                <p>
+                    <label for='passcode'>
+                        <span>Password: </span>
+                        <strong><abbr title='required'>*</abbr></strong>
+                    </label>
+                    <input type='password' id='passcode' name='password'>
+                </p>
+            </section>
+
+            <section>
+                <h2>Payment Information</h2>
+
+                <p>
+                    <label for='card'>
+                        <span>Card type:</span>
+                    </label>
+                    <select id='card' name='usercard'>
+                        <option value='visa'>Visa</option>
+                        <option value='mc'>Mastercard</option>
+                        <option value='amex'>American Express</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for='card-number'>
+                        <span>Card Number:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type='tel' id='card-number' name='cardnumber'>
+                </p>
+
+                <p>
+                    <label for='date'>
+                        <span>Expiration date:</span>
+                        <strong><abbr title='required'>*</abbr></strong>
+                        <em>formateed as mm/dd/yyyy</em>
+                    </label>
+                    <input type='date' id='date' name='expiration'>
+                </p>
+            </section>
+
+            <p>
+                <button type='submit'>Validate the payment</button>
+            </p>
+        </form>
+
+        <form>
+            <section>
+                <fieldset>
+                    <legend>Personal details</legend>
+                    <p>
+                        <label for='name'>
+                            Name: 
+                        </label><br>
+                        <input type='text' id='name' name='person_name'>
+                    </p>
+                    <p>
+                        <label for='person-age'>
+                            Age:
+                        </label><br>
+                        <input type='number' id='person-age' name='person_age'>
+                    </p>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>Comment information</legend>
+                    <p>
+                        <label for='comment'>
+                            Comment:
+                        </label><br>
+                        <textarea id='comment' name='user_comment' placeholder="Your comment here!"></textarea>
+                    </p>
+
+                    <p>
+                        <label for='mail'>
+                            E-mail:
+                        </label><br>
+                        <input type='email' id='mail' name='user-mail'>
+                    </p>
+                </fieldset>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
