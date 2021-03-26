@@ -1,0 +1,84 @@
+h1.highlight {
+    background-color: pink;
+}
+
+span.highlight {
+    background-color: yellow;
+}
+
+.notebox {
+    border: 4px solid #666;
+    padding: 3em;
+}
+
+.notebox.warning{
+    border-color: orange;
+    font-weight: bold;
+}
+
+.notebox.danger {
+    border-color: red;
+    font-weight: bold;
+}
+
+li[class] {
+    font-size: 200%;
+}
+
+li[class='a'] {
+    background-color: yellow;
+}
+
+li[class~='a'] {
+    color: red;
+}
+
+article p:first-child {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+article p:first-line {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.descendant-combinator p {
+    color: violet;
+    font-weight: 800;
+    font-size: 1.9em;
+}
+
+.child-combinator > li {
+    border-top: 5px solid red;
+}
+
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+.container h1 {
+    color: blue;
+}
+
+.container h2 {
+    background-color: blue;
+    color: white;
+}
+
+.container p span {
+    font-size: 200%;
+}

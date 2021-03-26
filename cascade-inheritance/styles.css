@@ -1,0 +1,49 @@
+
+
+.main-heading {
+    color: brown;
+}
+
+/* This will not matter for h1 with class main-heading */
+h1 {
+    color: blue;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+.inheritance {
+    color: green;
+}
+
+.inherit-color {
+    color: inherit;
+}
+
+.reset-color {
+    color: initial;
+}
+
+.unset-color {
+    color: unset;
+}
+
+#outer div ul .nav a {
+    background-color: blue;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: initial;
+  }
+  
+  div div li a {
+    color: yellow;
+  }     
