@@ -1,0 +1,53 @@
+/* p,
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+.block,
+li {
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+} */
+
+p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+    border: 2px solid blue;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+.box {
+    border: 5px solid palevioletred;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternate {
+    box-sizing: border-box;
+}
