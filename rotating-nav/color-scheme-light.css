@@ -1,0 +1,81 @@
+:root {
+
+  /* Color Tool - Material Design */
+  --primary-color: hsl(123, 38%, 57%);
+  --primary-light-color: hsl(121, 72%, 76%);
+  --primary-dark-color: hsl(128, 46%, 37%);
+
+  --secondary-color: hsl(262, 47%, 55%);
+  --secondary-light-color: hsl(263, 85%, 74%);
+  --secondary-dark-color: hsl(260, 53%, 37%);
+
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  --secondary-textColor-light: hsl(263, 5%, 15%);
+
+  
+  /*--------- Custom Designs ----------- */
+  /**
+   * Background Color for document with interactive materials 
+   * White color is preferred for interactive background itself.
+   */
+  /* --primary-backgroundColor: rgb(224, 224, 224);
+  --primary-backgroundColor-light: rgb(255, 255, 255);
+  --primary-backgroundColor-dark: rgb(173, 173, 173);
+
+  --primary-backgroundTextColor: rgb(255, 255, 255); */
+
+  /* Color for articles with height >= 1vh. */
+  --reading-backgroundColor: hsl(120, 4%, 95%);
+  --reading-textColor: hsl(135, 5%, 15%);
+
+
+
+}
+
+/* -------- Color styles only ------------- */
+
+body {
+  background-color: var(--reading-backgroundColor);
+}
+
+main {
+  background-color: white;
+  color: var(--reading-textColor);
+
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+nav ul li a {
+  color: var(--primary-text-color);
+}
+
+.material-icons {
+  color: var(--secondary-color);
+}
+
+footer {
+  background-color: var(--secondary-light-color);
+  color: var(--secondary-textColor-light);
+}
+
+/* -----------Custom for this page ----------- */
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  background-color: var(--reading-backgroundColor);
+}
+
+.circle {
+  background-color: var(--secondary-light-color);
+}
+
+.menu-icon {
+  color: white;
+}
